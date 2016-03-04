@@ -1,0 +1,43 @@
+{
+    "appKeys": {
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "nicholaskhendry@gmail.com",
+    "longName": "Temperature Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/Background",
+                "name": "BACKGROUND",
+                "type": "png"
+            },
+            {
+                "file": "fonts/Sniglet 50",
+                "name": "SNIGLET_50",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Sniglet 43",
+                "name": "SNIGLET_43",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Sniglet 31",
+                "name": "SNIGLET_31",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Temperature Watchface",
+    "uuid": "734c91e3-8fa8-4c2d-a9b2-f0ce11708e8f",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}

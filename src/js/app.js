@@ -7,8 +7,8 @@ function HTTPGET(url) {
 
 var getWeather = function() {
 	//Get weather info
-	var response = HTTPGET("http://api.openweathermap.org/data/2.5/weather?q=Newcastle,au&appid=1690ddd0f595a2bcbdbaa6c1f2009296");
-  //var response = HTTPGET("http://api.openweathermap.org/data/2.5/weather?lat=-32&lon=151&appid=1690ddd0f595a2bcbdbaa6c1f2009296");
+	//var response = HTTPGET("http://api.openweathermap.org/data/2.5/weather?q=Newcastle,au&appid=1690ddd0f595a2bcbdbaa6c1f2009296");
+  var response = HTTPGET("http://api.openweathermap.org/data/2.5/weather?lat=-32.90&lon=151.67&appid=1690ddd0f595a2bcbdbaa6c1f2009296");
 		
 	//Convert to JSON
 	var json = JSON.parse(response);

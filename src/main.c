@@ -111,10 +111,10 @@ void window_load(Window *window){
   day_of_week_layer = init_text_layer(GRect(0, 84, 144, 49), GColorBlack, GColorClear, font_handle_2, GTextAlignmentCenter);
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(day_of_week_layer));
 
-  day_of_month_layer = init_text_layer(GRect(0, 119, 60, 49), GColorWhite, GColorBlack, font_handle_3, GTextAlignmentCenter);
+  day_of_month_layer = init_text_layer(GRect(0, 119, 60, 49), GColorWhite, GColorClear, font_handle_3, GTextAlignmentCenter);
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(day_of_month_layer));
   
-  month_layer = init_text_layer(GRect(84, 119, 60, 49), GColorWhite, GColorBlack, font_handle_3, GTextAlignmentCenter);
+  month_layer = init_text_layer(GRect(84, 119, 60, 49), GColorWhite, GColorClear, font_handle_3, GTextAlignmentCenter);
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(month_layer));
   
   //Get a time structure so that the face doesn't start blank.
